@@ -1,8 +1,8 @@
 {
-  "name": "vw-m3u-indexer",
+  "name": "m3u-indexer",
   "version": "0.0.1",
   "author": "Ilia Barbashov <ilya@barbashov.pro>",
-  "description": "m3u indexer of mp3 collections",
+  "description": "m3u indexer for mp3 collections",
   "main": "./src/index.js",
   "repository": {
     "type": "git",
