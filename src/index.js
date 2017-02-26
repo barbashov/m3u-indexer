@@ -1,6 +1,5 @@
 (function() {
     var fs = require('fs'),
-        id3 = require('id3js'),
         m3u = require('m3u');
 
     if (process.argv.length < 3)
@@ -67,11 +66,6 @@
                 return;
 
             songs.push(file);
-
-            /*id3({ file: filename, type: id3.OPEN_LOCAL }, function(err, tags) {
-                console.log(err, tags);
-                process.exit(0);
-            });*/
         });
 
         if (has_subdirs) {
